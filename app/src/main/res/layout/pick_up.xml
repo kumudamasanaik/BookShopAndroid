@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_12sdp"
+        android:maxLines="5"
+        android:text="@string/dummy_address"
+        android:textColor="@color/color_date_gray"
+        android:textSize="16sp" />
+
+    <LinearLayout
+        android:id="@+id/call_us"
+        android:layout_width="@dimen/_70sdp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/_4sdp"
+        android:padding="@dimen/_4sdp"
+        style="@style/green_button_style"
+        android:layout_gravity="center">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="@color/colorWhite"
+            android:text="@string/contact_us"
+            android:textSize="14sp"
+            android:visibility="visible" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight="0.3"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_call_black_24dp"
+            android:layout_gravity="center" />
+
+    </LinearLayout>
+</LinearLayout>

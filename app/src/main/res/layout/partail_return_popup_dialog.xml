@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="280dp"
+    android:layout_gravity="center"
+    android:elevation="2dp"
+    app:cardBackgroundColor="@color/cardview_light_background"
+    app:cardCornerRadius="5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_margin="15dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/return_dialog_body"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="start|center"
+            android:padding="5dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:text="@string/tx_return"
+            android:textColor="@color/color_black"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/ed_return_reason"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:hint="@string/tx_reason"
+            android:layout_marginTop="8dp"
+            android:layout_gravity="center"
+            android:gravity="start|center"
+            android:textColor="@color/app_text_blck"
+            android:textColorHint="@color/app_text_blck"
+            android:backgroundTint="@color/colorPrimary"
+            android:textSize="16sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:padding="8dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/return_btn_cancel"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:layout_weight="1"
+                android:background="@drawable/blue_outline_curve"
+                android:text="@string/cancel"
+                android:textColor="@color/colorPrimary" />
+
+            <Button
+                android:id="@+id/return_btn_ok"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:layout_weight="1"
+                android:background="@drawable/blue_outline_curve"
+                android:text="@string/ok"
+                android:textColor="@color/colorPrimary" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

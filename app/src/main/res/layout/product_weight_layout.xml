@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/less_button"
+    android:layout_width="100dp"
+    android:layout_height="30dp"
+    android:layout_gravity="center_horizontal"
+    android:background="@drawable/dark_black_outline_curve"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/tv_sku"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_gravity="end"
+        android:layout_weight="0.2"
+        android:ellipsize="end"
+        android:gravity="center|end"
+        android:text="@string/less"
+        android:textColor="@color/color_black"
+        android:textSize="14sp" />
+
+
+    <TextView
+        android:id="@+id/tv_changewiehgt"
+        android:layout_width="0dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:layout_marginEnd="5dp"
+        android:layout_weight="0.1"
+        android:background="@drawable/ic_arrow_drop_up_24dp"
+        android:ellipsize="start"
+        android:gravity="center|start"
+        android:padding="2dp" />
+</LinearLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/empty_view_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="12dp">
+
+    <ImageView
+        android:id="@+id/empty_imageView"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_marginBottom="30dp"
+        android:adjustViewBounds="true"
+        android:fitsSystemWindows="true"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/ic_delete_black_24dp" />
+
+    <TextView
+        android:id="@+id/error_msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:gravity="center_horizontal"
+        android:lineSpacingMultiplier="1.1"
+        android:padding="8dp"
+        android:text="@string/no_result_found"
+        android:textColor="@color/md_black_1000"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/empty_button"
+        style="@style/button_style"
+        android:layout_width="160dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="14dp"
+        android:text="@string/retry"
+        android:textSize="14sp" />
+
+</LinearLayout>

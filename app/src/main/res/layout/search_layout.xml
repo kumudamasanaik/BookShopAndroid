@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/search_layout"
+    style="@style/searchview_style"
+    android:gravity="center"
+    android:orientation="vertical">
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorTransparent"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="7dp"
+        android:background="@color/colorWhite"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/ic_menu_search"
+            style="@style/search_iconStyle"
+            android:layout_marginStart="8dp"
+            android:layout_gravity="start|center"
+            app:srcCompat="@drawable/ic_search_blue_24dp" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/search_badge"
+            style="@style/search_editTextStyle"
+            android:padding="6dp"
+            android:textSize="16sp"
+            android:background="@color/colorWhite"/>
+    </LinearLayout>
+
+</LinearLayout>

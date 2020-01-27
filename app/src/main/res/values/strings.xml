@@ -1,0 +1,136 @@
+<resources>
+    <string name="app_name">BookShopAndroid</string>
+    <string name="addAddress">Address</string>
+    <string name="please_wait">Please Wait</string>
+    <string name="text_date">Dec 12 2019</string>
+    <string name="express_delivery">zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz</string>
+    <string name="email">Email</string>
+    <string name="dummy_email">abcd123@gmail.com</string>
+    <string name="mobile_num">Mobile Number</string>
+    <string name="get_otp">Get Otp</string>
+    <string name="login">Login</string>
+    <string name="otp">OTP</string>
+    <string name="tx_continue">CONTINUE</string>
+    <string name="name">Name</string>
+    <string name="password">Password</string>
+    <string name="new_password">New Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="gender">Gender</string>
+    <string name="address1">Address1</string>
+    <string name="address2">Address2</string>
+    <string name="city">City</string>
+    <string name="state">State</string>
+    <string name="postal_code">Postal Code</string>
+    <string name="school">School</string>
+    <string name="classname">Class</string>
+    <string name="order">Order</string>
+    <string name="notification">Notification</string>
+    <string name="change_password">Change Password</string>
+    <string name="location">Location</string>
+    <string name="dummy_location">Banglore</string>
+    <string name="bundle">Bundle :</string>
+    <string name="BUNDLE">Bundle</string>
+    <string name="PROFILE">Profile</string>
+    <string name="ORDER_DETAIL">Order Detail</string>
+    <string name="CLASS_LIST">Class</string>
+    <string name="CHECKOUT">Check Out</string>
+    <string name="CHANGE_PASSWORD">CHANGE PASSWORD</string>
+    <string name="rate">Rate :</string>
+    <string name="rs">\u20B9</string>
+    <string name="do_u_want_to_remove"> Are you sure you want to remove this bundle from cart?</string>
+    <string name="details">Details :</string>
+    <string name="dummy_details">The book description goes most prominently on the back cover, and the top of your Amazon page (below the price and above the book reviews) from the book description oes most prominently on the back cover, and the top of your Amazon page (below the price and above the book reviews) from the book descr</string>
+    <string name="add_to_cart">ADD TO CART</string>
+    <string name="dummy_rate">\u20B9 450.00</string>
+    <string name="remove">REMOVE</string>
+    <string name="book">Book</string>
+    <string name="total">TOTAL</string>
+    <string name="checkout">CHECKOUT</string>
+    <string name="grand_total">GRAND TOTAL :</string>
+    <string name="item_total">Item Total</string>
+    <string name="delivery_charge">Delivery Charge</string>
+    <string name="more">MORE</string>
+    <string name="select_deliivery_address">Delivery Address</string>
+    <string name="add_new_address">Add New Address</string>
+    <string name="home_delivery">Home Delivery</string>
+    <string name="pick_up">Pick Up</string>
+    <string name="proceed_to_payment">PROCEED TO PAYMENT</string>
+    <string name="less">LESS</string>
+    <string name="order_id">Order ID</string>
+    <string name="acknowledged">ACKNOWLEDGED</string>
+    <string name="dummy_order_id">#54546466</string>
+    <string name="dummy_date">15 dec,2019 12:12 PM</string>
+    <string name="dummy_address">1st Floor, Workshaala Spaces, No 57, 12th Main Rd, Sector 6, HSR Layout, Bengaluru, Karnataka 560102</string>
+    <string name="dummy_mobile_num">1234567899</string>
+    <string name="no_result_found">No Result Found</string>
+    <string name="retry">Retry</string>
+    <string name="woops_something_went_wrong">Whoops! Something went wrong !!</string>
+    <string name="notifications">Notification</string>
+    <string name="Please_login_to_the_application">Please Login to the application </string>
+    <string name="Please_add_school">Please add school </string>
+    <string name="do_u_want_to_logout"> Are you sure you want to logout?</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">Ok</string>
+    <string name="tx_return">Return</string>
+    <string name="tx_reason">Reason</string>
+    <string name="payment_mode">Payment mode</string>
+    <string name="dummy_payment_mode">Pay Online</string>
+    <string name="do_you_want_to_cancel_order"> Are you sure you want to Cancel order?</string>
+    <string name="successfully_cancelled"> Successfully cancelled order</string>
+    <string name="order_detail_activity">OrderDetail</string>
+    <string name="cart">Cart</string>
+    <string name="CART">Cart</string>
+    <string name="home">Home</string>
+    <string name="search_hint">Search</string>
+
+    <string name="profile">Profile</string>
+    <string name="registration">Registration</string>
+    <string name="successfully_deleted">Successfully Deleted</string>
+    <string name="successfully_added_to_cart">Successfully added to cart</string>
+    <string name="dummy_cart_rate">538.00</string>
+    <string name="dummy_delivery_rate">10.00</string>
+    <string name="dummy_total_rate">548.00</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="make_order">Make Order</string>
+    <string name="order_history">Order History</string>
+    <string name="my_profile">My Profile</string>
+    <string name="contact_us">Call</string>
+    <string name="status">ACKNOWLEDGED</string>
+    <string name="already_have_account">already have an account?</string>
+    <string name="create_account">Create Account</string>
+    <string name="add_schools">Click Here To Add School</string>
+
+    <string-array name="school_array">
+        <item>School</item>
+        <item>School 1</item>
+        <item>School 2</item>
+        <item>School 3</item>
+        <item>School 4</item>
+    </string-array>
+
+    <string-array name="class_array">
+        <item>Class</item>
+        <item>Class 1</item>
+        <item>Class 2</item>
+        <item>Class 3</item>
+        <item>Class 4</item>
+    </string-array>
+
+    //error msgs//
+    <string name="err_please_enter_name">Please enter Name</string>
+    <string name="err_please_enter_valid_mobile">Please enter Valid mobile number</string>
+    <string name="err_please_enter_valid_otp">Please enter Valid OTP</string>
+    <string name="err_please_enter_valid_email">Please enter Valid Email Id</string>
+    <string name="err_please_enter_valid_password">Please enter Valid Password</string>
+    <string name="error_no_internet">No internet</string>
+    <string name="err_please_enter_address">Please enter Address</string>
+    <string name="err_please_enter_city_name">Please enter City</string>
+    <string name="err_please_enter_state">Please enter State</string>
+    <string name="err_please_enter_pin_code">Please enter Postal Code</string>
+    <string name="error_Mobile_no_Not_registered">Mobile Number Is Not Registered</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="new_user">New User?</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="back_to_login">&lt;&lt;Login&gt;&gt;</string>
+
+</resources>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_gravity="center"
+    android:elevation="2dp"
+    app:cardBackgroundColor="@color/cardview_light_background"
+    app:cardCornerRadius="5dp">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_school"
+        style="@style/recyclerView_vertical_style"
+        android:layout_margin="5dp"
+        tools:listitem="@layout/partial_selected_scool_list" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/dialog_body"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:padding="5dp"
+            android:gravity="start|center"
+            android:text="@string/do_u_want_to_logout"
+            android:textColor="@color/app_text_blck"
+            android:textSize="14sp" />
+
+
+
+        </LinearLayout>
+</androidx.cardview.widget.CardView>

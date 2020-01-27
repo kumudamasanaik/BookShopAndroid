@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".screens.myprofile.ProfileActivity">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/et_address1"
+                style="@style/edit_text_style"
+                android:hint="@string/address1"
+                android:layout_marginTop="@dimen/_12sdp"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/et_address2"
+                style="@style/edit_text_style"
+                android:hint="@string/address2"
+                android:layout_marginTop="@dimen/_12sdp"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/et_city"
+                style="@style/edit_text_style"
+                android:layout_marginTop="@dimen/_12sdp"
+                android:hint="@string/city"
+                android:inputType="text"
+                android:maxLines="1"/>
+
+            <EditText
+                android:id="@+id/et_state"
+                style="@style/edit_text_style"
+                android:hint="@string/state"
+                android:layout_marginTop="@dimen/_12sdp"
+                android:inputType="text"
+                android:maxLines="1"/>
+
+            <EditText
+                android:id="@+id/et_postal_code"
+                style="@style/edit_text_style"
+                android:hint="@string/postal_code"
+                android:maxLength="6"
+                android:layout_marginTop="@dimen/_12sdp"
+                android:inputType="number" />
+        </LinearLayout>
+    </LinearLayout>

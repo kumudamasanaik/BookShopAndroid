@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".screens.registration.RegistrationActivity">
+
+    <LinearLayout
+        android:id="@+id/rigister_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        android:background="@drawable/back_outline_curve"
+        android:layout_margin="@dimen/_8sdp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/registration"
+            android:gravity="center"
+            android:layout_marginTop="@dimen/_8sdp"
+            android:layout_marginBottom="@dimen/_8sdp"
+            android:padding="@dimen/_8sdp"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_margin="@dimen/_15sdp">
+
+            <EditText
+                android:id="@+id/et_name"
+                style="@style/edit_text_style"
+                android:inputType="text"
+                android:hint="@string/name" />
+
+            <EditText
+                android:id="@+id/et_mobile_num"
+                style="@style/edit_text_style"
+                android:inputType="number"
+                android:maxLength="10"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:hint="@string/mobile_num" />
+
+            <Button
+                android:id="@+id/btn_get_otp_1"
+                android:text="@string/get_otp"
+                style="@style/button_style"
+                android:layout_marginTop="@dimen/_15sdp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:visibility="visible">
+
+                <EditText
+                    android:id="@+id/et_otp"
+                    style="@style/edit_text_style"
+                    android:inputType="number"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:hint="@string/otp" />
+
+                <EditText
+                    android:id="@+id/et_email"
+                    style="@style/edit_text_style"
+                    android:inputType="textEmailAddress"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:hint="@string/email" />
+
+                <EditText
+                    android:id="@+id/et_password"
+                    style="@style/edit_text_style"
+                    android:inputType="text"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:hint="@string/password" />
+
+                <Button
+                    android:id="@+id/btn__continue_1"
+                    android:text="@string/tx_continue"
+                    style="@style/button_style"
+                    android:layout_marginTop="@dimen/_15sdp"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_8sdp"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/_8sdp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginBottom="@dimen/_24sdp">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_marginStart="@dimen/_7sdp"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:gravity="end"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:textColor="@color/color_black"
+                android:text="@string/already_have_account" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tv_login"
+                android:layout_marginEnd="@dimen/_7sdp"
+                android:layout_marginStart="@dimen/_4sdp"
+                android:layout_width="0dp"
+                android:gravity="start"
+                android:layout_weight="0.6"
+                android:textColor="@color/colorPrimary"
+                android:layout_height="wrap_content"
+                android:text="@string/login" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

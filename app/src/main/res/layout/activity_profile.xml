@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".screens.myprofile.ProfileActivity">
+
+    <ScrollView
+        android:id="@+id/scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/btn_continue_profile"
+        android:layout_marginBottom="5dp"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_margin="8dp"
+                android:background="@drawable/back_outline_curve">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_margin="15dp">
+
+                    <EditText
+                        android:id="@+id/et_mobile_num"
+                        style="@style/edit_text_style"
+                        android:hint="@string/mobile_num"
+                        android:inputType="number"
+                        android:maxLength="10" />
+
+                    <EditText
+                        android:id="@+id/et_email_id"
+                        style="@style/edit_text_style"
+                        android:layout_marginTop="15dp"
+                        android:hint="@string/email"
+                        android:editable="false"
+                        android:inputType="textEmailAddress" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="8dp"
+                android:background="@drawable/back_outline_curve"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
+                    android:orientation="vertical">
+                    <!--
+
+
+                                        <View
+                                            android:layout_width="match_parent"
+                                            android:layout_height="0.4dp"
+                                            android:layout_gravity="center"
+                                            android:layout_marginTop="20dp"
+                                            android:layout_marginBottom="10dp"
+                                            android:background="@color/md_grey_400" />
+                    -->
+                    <!--
+                                        <LinearLayout
+                                            android:id="@+id/linear_layout"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginTop="15dp"
+                                            android:alpha="0.8"
+                                            android:background="@drawable/bg_outline_curve"
+                                            android:orientation="horizontal"
+                                            android:padding="10dp"
+                                            android:visibility="visible">
+
+                                            <LinearLayout
+                                                android:id="@+id/school"
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content"
+                                                android:orientation="horizontal">
+                                                <androidx.appcompat.widget.AppCompatSpinner
+                                                    android:id="@+id/sp_school"
+                                                    style="@style/spinner_style"
+                                                    android:layout_gravity="center"
+                                                    android:layout_marginStart="5dp"
+                                                    android:layout_marginEnd="5dp" />
+
+                                                <View
+                                                    android:layout_width="1dp"
+                                                    android:layout_height="20dp"
+                                                    android:layout_gravity="center"
+                                                    android:layout_marginEnd="10dp"
+                                                    android:background="@color/md_grey_400" />
+
+                                                <ImageView
+                                                    android:layout_width="0dp"
+                                                    android:layout_height="wrap_content"
+                                                    android:layout_gravity="center"
+                                                    android:layout_weight="0.1"
+                                                    app:srcCompat="@drawable/ic_blach_arrow_drop_down_24dp" />
+                                            </LinearLayout>
+                                        </LinearLayout>
+
+                                        <LinearLayout
+                                            android:id="@+id/class_linear_layout"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginTop="15dp"
+                                            android:alpha="0.8"
+                                            android:background="@drawable/bg_outline_curve"
+                                            android:orientation="horizontal"
+                                            android:padding="10dp"
+                                            android:visibility="visible">
+
+                                            <androidx.appcompat.widget.AppCompatSpinner
+                                                android:id="@+id/sp_class"
+                                                style="@style/spinner_style"
+                                                android:layout_gravity="center"
+                                                android:layout_marginStart="5dp"
+                                                android:layout_marginEnd="5dp" />
+
+                                            <View
+                                                android:layout_width="1dp"
+                                                android:layout_height="20dp"
+                                                android:layout_gravity="center"
+                                                android:layout_marginEnd="10dp"
+                                                android:background="@color/md_grey_400" />
+
+                                            <ImageView
+                                                android:layout_width="0dp"
+                                                android:layout_height="wrap_content"
+                                                android:layout_gravity="center"
+                                                android:layout_weight="0.1"
+                                                app:srcCompat="@drawable/ic_blach_arrow_drop_down_24dp" />
+
+                                        </LinearLayout>-->
+
+                    <EditText
+                        android:id="@+id/et_name"
+                        android:layout_marginTop="8dp"
+                        style="@style/edit_text_style"
+                        android:hint="@string/name"
+                        android:inputType="text"
+                        android:maxLines="1" />
+
+                    <androidx.appcompat.widget.AppCompatEditText
+                        android:id="@+id/et_address1"
+                        style="@style/edit_text_style"
+                        android:hint="@string/address1"
+                        android:layout_marginTop="15dp"
+                        android:inputType="text"
+                        android:editable="true"/>
+
+                    <EditText
+                        android:id="@+id/et_address2"
+                        style="@style/edit_text_style"
+                        android:layout_marginTop="15dp"
+                        android:hint="@string/address2"
+                        android:inputType="text" />
+
+                    <EditText
+                        android:id="@+id/et_city"
+                        style="@style/edit_text_style"
+                        android:layout_marginTop="15dp"
+                        android:hint="@string/city"
+                        android:inputType="text"
+                        android:maxLines="1" />
+
+                    <EditText
+                        android:id="@+id/et_state"
+                        style="@style/edit_text_style"
+                        android:layout_marginTop="15dp"
+                        android:hint="@string/state"
+                        android:inputType="text"
+                        android:maxLines="1" />
+
+                    <EditText
+                        android:id="@+id/et_postal_code"
+                        style="@style/edit_text_style"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginBottom="8dp"
+                        android:hint="@string/postal_code"
+                        android:inputType="number" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_margin="8dp"
+                android:background="@drawable/back_outline_curve">
+
+
+                <include
+                    android:id="@+id/add_schools_layout"
+                    layout="@layout/add_school_layoyt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <!--<Button
+        android:id="@+id/btn_continue_profile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorPrimary"
+        android:text="@string/tx_continue"
+        android:textColor="@color/colorWhite"
+        android:textSize="18sp" />-->
+
+    <Button
+        android:id="@+id/btn_continue_profile"
+        style="@style/button_style"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_alignParentBottom="true"
+        android:text="@string/tx_continue" />
+</RelativeLayout>
